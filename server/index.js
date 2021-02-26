@@ -15,6 +15,10 @@ app.use((req, res, next) => {
   next();
 });
 
+app.get('/', (req, res) => {
+  res.send('Hello');
+});
+
 app.get('/read-cookie', (req, res) => {
   res.status(200);
   res.json({
