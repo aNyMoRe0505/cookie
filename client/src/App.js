@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const API_HOST = 'http://localhost:3000'
+const API_HOST = 'https://localhost'
 
 function App() {
   const [result, setResult] = useState();
